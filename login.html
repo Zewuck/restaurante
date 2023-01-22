@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../public/style-header.css"/>
+    <link rel="stylesheet" href="../../public/style-footer.css"/>
+    <link rel="stylesheet" href="login.css">
+    <title>Iniciar sesion</title>
+    <script
+      src="https://kit.fontawesome.com/2c68f32e2b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="logo.png" class="logo__nav" />
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <i class="fas fa-home"></i
+            ><a href="http://localhost:4000/">Inicio</a>
+          </li>
+          <li class="nav__li">
+            <i class="fa-solid fa-utensils"></i><a href="/Menu">Menú</a>
+          </li>
+          <li class="nav__li">
+            <i class="fa-solid fa-phone"></i
+            ><a href="http://localhost:4000/contacto">Contacto</a>
+          </li>
+          <li class="nav__li">
+            <i class="fa-solid fa-registered"></i
+            ><a href="http://localhost:4000/register">Registrate</a>
+          </li>
+          <li class="nav__li">
+            <i class="fa-solid fa-user-large"></i
+            ><a href="http://localhost:4000/login">Iniciar sesion</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="login">LOGIN</h1>
+
+
+
+    <form action="" method="POST">
+      <input type="email" name="email" placeholder="Email" required class="email enviar"/> <br>
+      <input type="password" name="password" placeholder="Password" required class="pw enviar"/> <br>
+      <button type="submit" class="submit">Send</button>
+    </form>
+
+    
+
+    <footer>
+      <div class="footer">
+        <img src="logo.png" class="logo logofooter" />
+        <div class="nosotros">
+          <p>Ubicacion: Bucaramanga - Santander</p>
+          <p>Telefono: +57 31778594388</p>
+          <p>Direccion: <i class="fa-solid fa-location-dot direccion"></i></p>
+          <p>Mas info: <a href="#">Click Aquí</a></p>
+        </div>
+        <p class="copyr">Copyright © 2023 GrafiMedia - All Rights Reserved.</p>
+        <div class="redes-sociales">
+          <img src="facebook.png" class="facebook" /><img
+            src="instagram.png"
+            class="instagram"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
